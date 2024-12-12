@@ -1,7 +1,7 @@
 #1:
 def greet_user():
     name = input("Enter your name: ")
-    if name:  # Check if name is not empty
+    if name:  
         print(f"Hello, {name}!")
     else:
         print("Hello, Stranger!")
